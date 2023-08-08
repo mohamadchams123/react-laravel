@@ -6,6 +6,7 @@ import NotFound from "./views/NotFound";
 import DefaultLayout from "./components/DefaultLayout";
 import GuestLayout from "./components/GuestLayout";
 import Dashboard from "./views/Dashboard";
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -44,4 +45,5 @@ const router = createBrowserRouter([
         element: <NotFound />
     },
 ])
+
 export default router;
