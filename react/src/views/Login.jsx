@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Login() {
     const onSubmit = (ev) => {
-        ev.preventDefault
+        ev.preventDefault()
     }
     return (
         <div className="login-signup-form animated fadeInDown">
