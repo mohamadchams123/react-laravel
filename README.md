@@ -9,15 +9,15 @@
 
 ## Quick Start 
 clone the repo
-<!-- ```
-    git clone https://github.com/tauseedzaman/Laravel-libraray-management-system
-``` -->
+```
+    git clone https://github.com/mohamadchams123/react-laravel.git
+```
 
 change current directory
 
-<!-- ```
-cd Laravel-libraray-management-system
-``` -->
+```
+cd react-laravel-app
+```
 install dependencies
 ```
 composer install
@@ -42,8 +42,8 @@ start server
 ```
 php artisan serve
 ```
-credentails
-<!-- ```
+<!-- credentails
+```
 username: tauseedzaman
 password: password
 ``` -->
