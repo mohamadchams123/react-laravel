@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Users() {
     const [users, setUsers] = useState([]);
+    const {setNotification} = useStateContext()
     const [loading, setLoading] = useState(false)
     useEffect(() => {
         getUsers();
@@ -14,6 +15,7 @@ export default function Users() {
         }
         axiosClient.delete(`/users/${u.id}`)
             .then(() => {
+                setNotification("User was successfully deleted")
                 getUsers()
             })
     }
